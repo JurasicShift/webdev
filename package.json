@@ -1,0 +1,23 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "web devlopment portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[200~https://github.com/JurasicShift/webdev.git\u001b[201~"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Mick Whyte",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
